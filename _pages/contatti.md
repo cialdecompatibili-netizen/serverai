@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Contatti"
-seo_title: "Contatti | ScalaHost"
-seo_description: "Scrivici che server ti serve: ti rispondiamo entro 24 ore, festivi esclusi."
+seo_title: "Contatti | ScalaAI"
+seo_description: "Scrivici cosa ti serve (agente AI, chat privata, automazioni): ti rispondiamo entro 24 ore, festivi esclusi."
 permalink: /contatti/
 ---
 
@@ -17,7 +17,7 @@ permalink: /contatti/
   accetti il dominio di questo sito (campo "sito" = location.hostname).
 {%- endcomment -%}
 
-<p class="cf-intro">Dicci che server ti serve (gioco, VPS, hosting) e quante risorse ti servono: ti rispondiamo entro 24 ore, festivi esclusi.</p>
+<p class="cf-intro">Dicci cosa vuoi automatizzare o quale agente ti serve: ti rispondiamo entro 24 ore, festivi esclusi.</p>
 
 <style>
 .cf-wrap,.cf-intro{max-width:520px;margin-left:auto;margin-right:auto}
@@ -53,8 +53,8 @@ permalink: /contatti/
     <input type="email" id="cf-email" name="email" maxlength="150" required autocomplete="email" placeholder="nome@azienda.it">
   </div>
   <div class="cf-campo">
-    <label for="cf-msg">Che server ti serve?</label>
-    <textarea id="cf-msg" name="messaggio" rows="5" maxlength="3000" required placeholder="Esempio: server Minecraft con 20 giocatori e modpack."></textarea>
+    <label for="cf-msg">Cosa ti serve?</label>
+    <textarea id="cf-msg" name="messaggio" rows="5" maxlength="3000" required placeholder="Esempio: un agente che legge le mie email e prepara le risposte."></textarea>
   </div>
   <div style="position:absolute;left:-9999px;height:0;overflow:hidden" aria-hidden="true">
     <label for="cf-web">Non compilare</label>
